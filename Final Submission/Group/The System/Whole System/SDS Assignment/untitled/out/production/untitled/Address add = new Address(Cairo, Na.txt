@@ -1,0 +1,30 @@
+1- Address add = new Address("Cairo", "Nasr City", "Makram Ebeid St.", 10, 3, 15, "Near City Stars Mall");
+   UserInformation information = new UserInformation("Ahmed", 1001, add, "1234", "ahmed@example.com", UserStatus.Suspended);
+
+
+2- Address add = new Address("Alexandria", "Smouha", "El-Gaish Rd.", 22, 5, 7, "Beside Smouha Club");
+   UserInformation information = new UserInformation("Mona", 1002, add, "5678", "mona@example.com", UserStatus.Suspended);
+
+3- Address add = new Address("Giza", "Dokki", "Mohamed Mazhar St.", 30, 2, 12, "Opposite to El-Tawfikeya School");
+   UserInformation information = new UserInformation("Ali", 1003, add, "9012", "ali@example.com", UserStatus.unSuspended);
+
+4- Address add = new Address("Luxor", "Karnak", "El-Bahr St.", 8, 1, 4, "In front of Karnak Temple");
+   UserInformation information = new UserInformation("Sarah", 1004, add, "3456", "sarah@example.com", UserStatus.Suspended);
+
+5- Address add = new Address("Aswan", "Cornish El-Nil", "El-Nil St.", 12, 3, 9, "Next to Old Cataract Hotel");
+   UserInformation information = new UserInformation("Khaled", 1005, add, "7890", "khaled@example.com", UserStatus.unSuspended);
+
+6- Address add = new Address("Cairo", "Mohandessin", "Giza St.", 5, 2, 7, "Near Tahrir Square");
+   UserInformation information = new UserInformation("Ahmed", 2001, add1, "1234", "ahmed@example.com", UserStatus.Active);
+  
+7- Address add = new Address("Alexandria", "Gleem", "Al-Gaish Rd.", 10, 1, 3, "Opposite to Al-Haram Hospital");
+   UserInformation information = new UserInformation("Fatima", 3002, add2, "5678", "fatima@example.com", UserStatus.Inactive);
+
+8- Address add = new Address("Luxor", "Al-Karnak", "Al-Bairat Rd.", 20, 3, 1, "Near Luxor Temple");
+   UserInformation information = new UserInformation("Mohamed", 4003, add3, "9012", "mohamed@example.com", UserStatus.Active);
+
+9- Address add = new Address("Giza", "Faisal", "Al-Bahr Al-Azam St.", 15, 4, 2, "Near the Metro Station");
+   UserInformation information = new UserInformation("Aisha", 5004, add4, "3456", "aisha@example.com", UserStatus.Suspended);
+ 
+10- Address add = new Address("Asyut", "Downtown", "Al-Quds St.", 8, 2, 4, "Next to Asyut University");
+    UserInformation information = new UserInformation("Ali", 6005, add5, "7890", "ali@example.com", UserStatus.Active);
